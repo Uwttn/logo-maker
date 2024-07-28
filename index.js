@@ -59,14 +59,14 @@ inquirer
         }
     ])
     .then((data) => {
-        const svgStart = `<svg width="300" height="200">`;
+        const svgStart = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">`;
         const svgEnd = `</svg>`;
-        const textElement = `<text x="150" y="100" text-anchor="middle" fill="${data.textColor}">${data.acronym}</text>`;
+        const textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${data.textColor}">${data.acronym}</text>`;
 
         let shape;
         switch (data.shape) {
             case 'circle':
-                shape = new Circle(data.shapeColor, 100);
+                shape = new Circle(data.shapeColor);
                 break;
             case 'triangle':
                 shape = new Triangle(data.shapeColor);

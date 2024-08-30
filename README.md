@@ -23,7 +23,7 @@
 
 # logo-maker
 - A questionaire that allows to create a logo
-
+![alt text](assets/logo.png)
 # Initial setup
 
 1. To begin working with this project, you need to have several essential tools installed on your system. Follow these steps to install the necessary tools:

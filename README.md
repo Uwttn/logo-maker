@@ -84,4 +84,3 @@ Want to improve this project? Great! We encourage contribution to make this proj
 
 - GitHub: [uwttn](https://github.com/uwttn)
 - LinkedIn: [uwttn](https://www.linkedin.com/in/uwttn)
-- Email: muchati@icloud.com
